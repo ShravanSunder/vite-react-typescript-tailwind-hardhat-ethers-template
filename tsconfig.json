@@ -1,0 +1,30 @@
+{
+   "compilerOptions": {
+      "target": "ESNext",
+      "lib": ["DOM", "DOM.Iterable", "ESNext"],
+      "types": ["vite/client", "@emotion/react", "node"],
+      "allowJs": false,
+      "skipLibCheck": false,
+      "esModuleInterop": false,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "incremental": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "preserve",
+      "paths": {
+         "~~/*": ["./src/*"]
+      }
+   },
+   "include": ["./src", "types"],
+   "exclude": [
+      "**/node_modules",
+      ".husky",
+      "./src/styles/css",
+      "./tailwind.config.js"
+   ]
+}
