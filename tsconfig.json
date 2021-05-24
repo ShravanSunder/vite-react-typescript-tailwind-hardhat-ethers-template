@@ -8,6 +8,7 @@
       "esModuleInterop": false,
       "allowSyntheticDefaultImports": true,
       "strict": true,
+      "typeRoots": ["node_modules/@types", "helpers/definitions"] /* List of folders to include type definitions from. */,
       "forceConsistentCasingInFileNames": true,
       "module": "ESNext",
       "moduleResolution": "Node",
@@ -15,16 +16,13 @@
       "resolveJsonModule": true,
       "isolatedModules": true,
       "noEmit": true,
+      "rootDir": ".",
+      "baseUrl": ".",
       "jsx": "preserve",
       "paths": {
          "~~/*": ["./src/*"]
       }
    },
    "include": ["./src", "types"],
-   "exclude": [
-      "**/node_modules",
-      ".husky",
-      "./src/styles/css",
-      "./tailwind.config.js"
-   ]
+   "exclude": ["**/node_modules", ".husky", "./src/styles/css", "./tailwind.config.js"]
 }
