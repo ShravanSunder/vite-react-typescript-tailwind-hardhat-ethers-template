@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import { GlobalStyles } from 'twin.macro';
+
+const App = lazy(() => import('./components/common/app/App'));
 
 ReactDOM.render(
    <React.StrictMode>
-      <GlobalStyles />
-      <App />
+      <Suspense fallback={<div></div>}>
+         <App />
+      </Suspense>
    </React.StrictMode>,
    document.getElementById('root')
 );
