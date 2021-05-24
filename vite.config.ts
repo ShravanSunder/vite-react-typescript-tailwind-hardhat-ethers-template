@@ -13,4 +13,7 @@ export default defineConfig({
       'process.platform': JSON.stringify('win32'),
       'process.env': {},
    },
+   // alias: {
+   //    '@material-ui/icons': '@material-ui/icons/esm',
+   // },
 });
