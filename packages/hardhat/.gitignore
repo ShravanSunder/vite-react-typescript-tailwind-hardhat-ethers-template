@@ -1,0 +1,20 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+dist/*
+node_modules/*
+.cache
+build
+.yarn/cache
+.yarn/install-state.gz
+.yarn/build-state.yml
+.eslintcache
+.secret
+
+node_modules
+
+#Hardhat files
+cache
+artifacts

@@ -1,4 +1,23 @@
+packages/subgraph/subgraph.yaml
+packages/subgraph/generated
+packages/hardhat/*.txt
+**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+**/node_modules
+packages/hardhat/artifacts
+packages/app/src/contracts
+packages/hardhat/cache
+
+docker/**/data
+
+packages/subgraph/config/config.json
+
 node_modules
+/node_modules
+/.pnp
+.pnp.js
+
 .DS_Store
 dist
 dist-ssr
@@ -11,3 +30,10 @@ build
 .yarn/install-state.gz
 .yarn/build-state.yml
 .eslintcache
+.secret
+
+node_modules
+
+#Hardhat files
+cache
+artifacts

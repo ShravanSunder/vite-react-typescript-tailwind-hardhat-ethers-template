@@ -16,10 +16,13 @@
       "node": true
    },
    "extends": [
-      "prettier",
+      "airbnb-typescript",
+      "airbnb/hooks",
       "plugin:import/errors",
       "plugin:import/warnings",
       "plugin:import/typescript",
+      "plugin:jest/recommended",
+      "plugin:prettier/recommended",
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
