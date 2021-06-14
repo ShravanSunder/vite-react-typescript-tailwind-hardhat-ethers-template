@@ -16,10 +16,11 @@ export default defineConfig({
       'process.platform': JSON.stringify('win32'),
       'process.env': {},
    },
-   alias: {
-      '~~': resolve(__dirname, 'src'),
+   resolve: {
+      alias: {
+         '~~': resolve(__dirname, 'src'),
+      },
    },
-
    // alias: {
    //    '@material-ui/icons': '@material-ui/icons/esm',
    // },

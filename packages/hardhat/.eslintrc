@@ -17,18 +17,14 @@
    },
    "extends": [
       "airbnb-typescript",
-      "airbnb/hooks",
       "plugin:import/errors",
       "plugin:import/warnings",
       "plugin:import/typescript",
-      "plugin:jest/recommended",
       "plugin:prettier/recommended",
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
-      "plugin:react/recommended",
       "plugin:jest/recommended",
-      "plugin:tailwind/recommended"
    ],
    "plugins": ["prettier", "formatjs", "react", "react-hooks"],
    "rules": {
@@ -41,21 +37,6 @@
       "react/jsx-uses-react": "off",
       "react/react-in-jsx-scope": "off",
       "prettier/prettier": 0,
-      "react/jsx-filename-extension": 0,
-      "react/jsx-indent": 0,
-      "react/require-default-props": 0,
-      "react/jsx-one-expression-per-line": 0,
-      "react/jsx-closing-tag-location": 0,
-      "react/jsx-indent-props": 0,
-      "react/jsx-closing-bracket-location": 0,
-      "react/prop-types": 0,
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": [
-         "warn",
-         {
-            "additionalHooks": "(useRecoilCallback)"
-         }
-      ],
       "@typescript-eslint/ban-ts-comment": "off",
       "@typescript-eslint/no-empty-function": "warn",
       "no-unused-vars": 0,
