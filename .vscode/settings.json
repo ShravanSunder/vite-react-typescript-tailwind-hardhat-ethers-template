@@ -1,0 +1,24 @@
+{
+   "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/.cache": true,
+      "**/.vs/": true,
+      "**/*.cs": true,
+      "**/*.orig": true,
+      "**/bin/": true,
+      "**/build/": true,
+      "**/debug/": true,
+      "**/dist/": true,
+      "**/node_modules/": true,
+      "**/obj": true,
+      ".yarn/cache": true,
+      ".yarn/releases": true,
+      ".yarn/unplugged": true,
+      ".yarn/install-state.gz": true
+   },
+   "explorerExclude.backup": null
+}

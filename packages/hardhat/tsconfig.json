@@ -22,7 +22,7 @@
       "jsx": "react-jsxdev",
       "jsxImportSource": "@emotion/react",
       "paths": {
-         "~~/*": ["./src/*"]
+         "~~/*": ["./scripts/*", "./test/*", "./helpers/*"]
       }
    },
    "include": ["./src", "types", ".scripts", "hardhat/test"],
