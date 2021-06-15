@@ -1,5 +1,5 @@
 {
-   "name": "@eth-dev/app",
+   "name": "@eth-dev/vite-app",
    "version": "0.1.0",
    "license": "MIT",
    "scripts": {
