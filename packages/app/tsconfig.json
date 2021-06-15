@@ -27,5 +27,5 @@
    },
    "include": ["./src", "types", ".scripts", "hardhat/test"],
    "exclude": ["**/node_modules", ".husky", "./src/styles/css", "./tailwind.config.js"],
-   "files": ["./hardhat.config.ts", "./src/helpers/definitions/__global.ts"]
+   "files": ["./hardhat.config.ts", "./src/helpers/__global.ts"]
 }
