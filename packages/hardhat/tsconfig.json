@@ -8,7 +8,7 @@
       "esModuleInterop": false,
       "allowSyntheticDefaultImports": true,
       "strict": true,
-      "typeRoots": ["node_modules/@types", "helpers/definitions"] /* List of folders to include type definitions from. */,
+      "typeRoots": ["node_modules/@types", "src/helpers/definitions"] /* List of folders to include type definitions from. */,
       "forceConsistentCasingInFileNames": true,
       "module": "commonjs",
       "moduleResolution": "Node",
@@ -20,10 +20,14 @@
       "baseUrl": ".",
       "outDir": "dist",
       "paths": {
-         "~~/*": ["./scripts/*", "./test/*", "./helpers/*"]
+         "~~/*": ["./src/*"],
+         "scripts/*": ["./scripts/*"],
+         "helpers/*": ["./helpers/*"],
+         "contracts/*": ["./contracts/*"],
+         "tests/*": ["./tests/*"]
       }
    },
-   "include": ["./src", "types", "./scripts", "test"],
+   "include": ["./src", "types", "./scripts", "test", "helpers"],
    "exclude": ["**/node_modules", ".husky", "./src/styles/css", "./tailwind.config.js"],
-   "files": ["./hardhat.config.ts", "./src/helpers/__global.ts"]
+   "files": ["./hardhat.config.ts", "helpers/__global.ts"]
 }
