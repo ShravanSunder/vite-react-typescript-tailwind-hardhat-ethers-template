@@ -6236,9 +6236,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethdev@workspace:packages/ethdev":
+"ethdev@workspace:packages/hardhat":
   version: 0.0.0-use.local
-  resolution: "ethdev@workspace:packages/ethdev"
+  resolution: "ethdev@workspace:packages/hardhat"
   dependencies:
     "@ethereumjs/vm": ^5.4.1
     "@nomiclabs/hardhat-ethers": ^2.0.2
