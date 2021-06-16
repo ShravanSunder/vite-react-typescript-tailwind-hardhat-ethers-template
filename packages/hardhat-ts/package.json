@@ -1,0 +1,50 @@
+{
+  "name": "@eth-dev/hardhat-ts",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "chain": "hardhat node --hostname 0.0.0.0",
+    "fork": "hardhat node --fork https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad",
+    "test": "hardhat test --network hardhat",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "postdeploy": "hardhat run scripts/publish.ts",
+    "watch": "node scripts/watch.js",
+    "accounts": "hardhat accounts",
+    "balance": "hardhat balance",
+    "send": "hardhat send",
+    "generate": "hardhat generate",
+    "account": "hardhat account"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^3.4.1",
+    "@tenderly/hardhat-tenderly": "^1.0.10",
+    "@typechain/hardhat": "^2.0.2",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.3.1",
+    "hardhat": "^2.3.3",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@ethereumjs/vm": "^5.4.1",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
+    "chalk": "^4.1.1",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.4",
+    "node-watch": "^0.7.1",
+    "prettier": "^2.3.1",
+    "rlp": "^2.2.6",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.3.2"
+  }
+}
