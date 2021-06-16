@@ -10,10 +10,6 @@
    ],
    "private": true,
    "scripts": {
-      "react-app:build": "yarn workspace @eth-dev/app build --max-old-space-size=12288",
-      "react-app:eject": "yarn workspace @eth-dev/app eject",
-      "react-app:start": "yarn workspace @eth-dev/app start",
-      "react-app:test": "yarn workspace @eth-dev/app test",
       "build": "yarn workspace @eth-dev/app build --max-old-space-size=12288",
       "chain": "yarn workspace @eth-dev/hardhat chain",
       "fork": "yarn workspace @eth-dev/hardhat fork",

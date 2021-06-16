@@ -5,7 +5,7 @@ import * as chalk from 'chalk';
 import * as bre from 'hardhat';
 import { ContractJson } from 'helpers/types/hardhat.types';
 
-const publishDir = '../app/src/contracts';
+const publishDir = '../vite-app/src/contracts';
 const graphDir = '../subgraph';
 
 function publishContract(contractName: string) {

@@ -600,9 +600,46 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eth-dev/app@workspace:packages/app":
+"@eth-dev/hardhat@workspace:packages/hardhat":
   version: 0.0.0-use.local
-  resolution: "@eth-dev/app@workspace:packages/app"
+  resolution: "@eth-dev/hardhat@workspace:packages/hardhat"
+  dependencies:
+    "@ethereumjs/vm": ^5.4.1
+    "@nomiclabs/hardhat-ethers": ^2.0.2
+    "@nomiclabs/hardhat-waffle": ^2.0.1
+    "@openzeppelin/contracts": ^3.4.1
+    "@typechain/hardhat": ^2.0.2
+    "@types/jest": ^26.0.23
+    "@types/node": ^15.12.2
+    chalk: ^4.1.1
+    eslint: ^7.28.0
+    eslint-config-airbnb: ^18.2.1
+    eslint-config-airbnb-typescript: ^12.3.1
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-import: ^2.23.4
+    eslint-plugin-jest: ^24.3.6
+    eslint-plugin-prettier: ^3.4.0
+    ethereum-waffle: ^3.3.0
+    ethers: ^5.3.1
+    hardhat: ^2.3.3
+    node-watch: ^0.7.1
+    prettier: ^2.3.1
+    rlp: ^2.2.6
+    ts-node: ^10.0.0
+    tsconfig-paths: ^3.9.0
+    typescript: ^4.3.2
+  languageName: unknown
+  linkType: soft
+
+"@eth-dev/monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@eth-dev/monorepo@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"@eth-dev/vite-app@workspace:packages/vite-app":
+  version: 0.0.0-use.local
+  resolution: "@eth-dev/vite-app@workspace:packages/vite-app"
   dependencies:
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
@@ -664,42 +701,6 @@ __metadata:
     vite: ^2.3.7
     vite-plugin-babel-macros: ^1.0.5
     vite-tsconfig-paths: ^3.3.13
-  languageName: unknown
-  linkType: soft
-
-"@eth-dev/hardhat@workspace:packages/hardhat":
-  version: 0.0.0-use.local
-  resolution: "@eth-dev/hardhat@workspace:packages/hardhat"
-  dependencies:
-    "@ethereumjs/vm": ^5.4.1
-    "@nomiclabs/hardhat-ethers": ^2.0.2
-    "@nomiclabs/hardhat-waffle": ^2.0.1
-    "@openzeppelin/contracts": ^3.4.1
-    "@typechain/hardhat": ^2.0.2
-    "@types/jest": ^26.0.23
-    "@types/node": ^15.12.2
-    chalk: ^4.1.1
-    eslint: ^7.28.0
-    eslint-config-airbnb: ^18.2.1
-    eslint-config-airbnb-typescript: ^12.3.1
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-import: ^2.23.4
-    eslint-plugin-jest: ^24.3.6
-    eslint-plugin-prettier: ^3.4.0
-    ethereum-waffle: ^3.3.0
-    ethers: ^5.3.1
-    hardhat: ^2.3.3
-    prettier: ^2.3.1
-    rlp: ^2.2.6
-    ts-node: ^10.0.0
-    tsconfig-paths: ^3.9.0
-    typescript: ^4.3.2
-  languageName: unknown
-  linkType: soft
-
-"@eth-dev/monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@eth-dev/monorepo@workspace:."
   languageName: unknown
   linkType: soft
 
@@ -10543,6 +10544,13 @@ fsevents@~2.3.1:
   version: 1.1.73
   resolution: "node-releases@npm:1.1.73"
   checksum: 8dbc7dd438c4e0a01e546cf73b8d3cc766f1ba3c40848d5cc8c6027eb8d87d54c4617eae036bed3c02e16f25e241ee2a4bd48fa528ebf6fe97d2c86c71ddfedc
+  languageName: node
+  linkType: hard
+
+"node-watch@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "node-watch@npm:0.7.1"
+  checksum: 9b7b2eb0de41bb7881908a5163b28f6c3def9267fed4fbe7d9287bfaba088f1a30a13ad9fe5fc9af33d4a6123eec8bd9dc440887990ef3aead62809202ae4beb
   languageName: node
   linkType: hard
 
