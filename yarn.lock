@@ -789,7 +789,7 @@ __metadata:
     "@ethereumjs/vm": ^5.4.1
     "@nomiclabs/hardhat-ethers": ^2.0.2
     "@nomiclabs/hardhat-waffle": ^2.0.1
-    "@openzeppelin/contracts": ^3.4.1
+    "@openzeppelin/contracts": ^4.8.3
     "@tenderly/hardhat-tenderly": ^1.0.10
     "@typechain/hardhat": ^2.0.2
     "@types/jest": ^26.0.23
@@ -2084,10 +2084,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "@openzeppelin/contracts@npm:3.4.1"
-  checksum: 1b39785beb962ca030138373d0414d88a3db1b09d0acd2759b41e53de5ab8e625f5d5633ef4dc592dc62154f8e789555908b0ca36d5491522dd075a911ce2202
+"@openzeppelin/contracts@npm:^4.8.3":
+  version: 4.8.3
+  resolution: "@openzeppelin/contracts@npm:4.8.3"
+  checksum: 04fac1306d7fe6d532a30f46f0128969fc6dc47ec713e9a227226718181b7d81be26ce1585492e8d2eef32956bc1ccff682198de27f13670e23dad06c9f6e984
   languageName: node
   linkType: hard
 
